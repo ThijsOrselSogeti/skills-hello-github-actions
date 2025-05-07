@@ -1,11 +1,11 @@
-name: Post welcome comment
+name: Server date workflow
 on:
   schedule:
     - cron: '*/1 * * * *'
 
 jobs:
   build:
-    name: Post welcome comment
+    name: Server date
     runs-on: ubuntu-latest
     steps:
-      - run: server date is $(date)
+      - run: "echo server date is $(date)"

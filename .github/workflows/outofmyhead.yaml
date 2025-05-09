@@ -1,0 +1,15 @@
+name: out of my head workflow
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: step one
+        uses: actions/checkout@v4
+      - name: step two
+        run: "echo hello world"
+      
+
+

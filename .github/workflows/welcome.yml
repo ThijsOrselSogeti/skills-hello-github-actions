@@ -1,7 +1,5 @@
 name: Server date workflow
-on:
-  schedule:
-    - cron: '*/1 * * * *'
+on: push
 
 jobs:
   build:

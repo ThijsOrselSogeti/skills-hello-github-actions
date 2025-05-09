@@ -1,9 +1,0 @@
-name: Server date workflow
-on: push
-
-jobs:
-  build:
-    name: Server date
-    runs-on: ubuntu-latest
-    steps:
-      - run: "echo server date is $(date)"

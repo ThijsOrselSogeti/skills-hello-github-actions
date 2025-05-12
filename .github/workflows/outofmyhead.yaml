@@ -11,6 +11,6 @@ jobs:
       - name: step 1
         uses: actions/checkout@v4
       - name: step 2
-        run: "echo this is step 2"
+        run: "echo this is step 2.0"
       
   

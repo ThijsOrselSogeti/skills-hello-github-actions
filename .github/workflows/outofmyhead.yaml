@@ -1,15 +1,16 @@
-name: out of my head workflow
-on: [push, pull_request]
-
+name: outofmyhead workflow
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    steps:
-      - name: step one
+    steps: 
+      - name: step 1
         uses: actions/checkout@v4
-      - name: step two
-        run: "echo hello world"
+      - name: step 2
+        run: "echo this is step 2"
       
-
-
+  
